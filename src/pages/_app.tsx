@@ -1,7 +1,8 @@
 import type { AppProps } from 'next/app';
 import React from 'react';
-import '../../styles/globals.css'; // 글로벌 css
+// import "../../styles/globals.css"; // 글로벌 css
 import 'semantic-ui-css/semantic.min.css'; // sementic css 사용
+import styles from '../../styles/Home.module.css';
 
 import Footer from '../components/Footer';
 import TopHeader from '../components/TopHeader';
@@ -13,7 +14,7 @@ import TopHeader from '../components/TopHeader';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div style={{ width: 1000, margin: '0 auto' }}>
+    <div>
       <TopHeader />
       <Component {...pageProps} />
       <Footer />
