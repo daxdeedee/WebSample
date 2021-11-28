@@ -22,9 +22,9 @@ const LoginMenu = () => {
       case 'login':
         router.push('/login/Login');
         return;
-      case 'joinin':
-        router.push('/about/About');
-        return;
+      // case 'joinin':
+      //   router.push('/about/About');
+      //   return;
     }
   };
 
@@ -33,9 +33,9 @@ const LoginMenu = () => {
       <Menu.Item name="Home" active={activeItem === 'login'} onClick={() => onClickTab('login')}>
         Login
       </Menu.Item>
-      <Menu.Item name="reviews" active={activeItem === 'joinin'} onClick={() => onClickTab('joinin')}>
+      {/* <Menu.Item name="reviews" active={activeItem === 'joinin'} onClick={() => onClickTab('joinin')}>
         Join In
-      </Menu.Item>
+      </Menu.Item> */}
     </Menu>
   );
 };
