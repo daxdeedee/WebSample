@@ -1,0 +1,45 @@
+.item_continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  color: black;
+}
+
+.image_item {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item_price {
+  color: blueviolet;
+}
+
+.item_category {
+  color: gray;
+}
+
+.descreption {
+  margin-top: 40px;
+}
+
+.list_continer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.list_title {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.more_button {
+  width: 20rem;
+}
