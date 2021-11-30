@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": { "browsers": ["last 2 versions", ">= 10% in KR"] } }],
+    "@babel/react",
+    ["next/babel"]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime"],
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          { "rootPathSuffix": "src", "rootPathPrefix": "~" },
+          { "rootPathSuffix": "./src", "rootPathPrefix": "#/src" },
+          { "rootPathSuffix": "./public", "rootPathPrefix": "#/public" },
+          { "rootPathSuffix": "./src/components", "rootPathPrefix": "#/components" },
+          { "rootPathSuffix": "./src/pages", "rootPathPrefix": "#/pages" }
+        ]
+      }
+    ]
+  ]
+}

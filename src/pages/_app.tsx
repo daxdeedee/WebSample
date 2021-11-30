@@ -1,11 +1,9 @@
 import type { AppProps } from 'next/app';
 import React from 'react';
-// import "../../styles/globals.css"; // 글로벌 css
-import 'semantic-ui-css/semantic.min.css'; // sementic css 사용
-import styles from '../../styles/Home.module.css';
+import 'semantic-ui-css/semantic.min.css'; // sementic css
 
-import Footer from '../components/Footer';
-import TopHeader from '../components/TopHeader';
+import Footer from '#/components/Footer';
+import TopHeader from '#/components/TopHeader';
 
 //페이지 전환시 레이아웃유지, 페이지 전환 시 상태값 유지
 // componentdidcatch를 이용해 에러 핸들링 가능

@@ -1,12 +1,12 @@
-import type { NextPage } from 'next';
+import { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../../styles/Home.module.css';
+import styles from '#/styles/Home.module.css';
 import React from 'react';
-import CommentList from './comment/CommentList';
+import CommentList from '#/pages/comment/CommentList';
 import Axios from 'axios';
 import { GetStaticProps } from 'next';
-import Introduce from '../components/introduce/Introduce';
-import ProductList from './product/ProductList';
+import Introduce from '#/components/introduce/Introduce';
+import ProductList from '#/pages/product/ProductList';
 
 const Home: NextPage = ({ list }: any) => {
   return (

@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
-import styles from '../../../styles/Home.module.css';
+import styles from '#/styles/Home.module.css';
 import React from 'react';
 import Axios from 'axios';
 import { GetStaticProps } from 'next';
-import ProductList from './ProductList';
+import ProductList from '#/pages/product/ProductList';
 import { useRouter } from 'next/router';
 
 const Product: NextPage = ({ list }: any) => {

@@ -1,10 +1,9 @@
 import React from 'react';
 import Axios from 'axios';
-import { Grid, Loader } from 'semantic-ui-react';
-import MakeUpItem from '../../components/items/MakeUpItem';
-import { Button } from 'semantic-ui-react';
-import styles from '../../components/styles/makeup.module.css';
 import { useRouter } from 'next/router';
+import { Grid, Button } from 'semantic-ui-react';
+import MakeUpItem from '#/components/items/MakeUpItem';
+import styles from '#/components/styles/makeup.module.css';
 
 interface IProductProps {
   list: any[];

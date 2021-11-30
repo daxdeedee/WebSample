@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react';
-import styles from '../styles/makeup.module.css';
+import styles from '#/components/styles/makeup.module.css';
 import Link from 'next/link';
 
 const MakeUpItem = ({ item }: any) => {

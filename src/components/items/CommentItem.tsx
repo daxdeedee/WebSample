@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/comment.module.css';
+import styles from '#/components/styles/comment.module.css';
 
 interface Iprops {
   profile: string;

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/introduce.module.css';
+import styles from '#/components/styles/introduce.module.css';
 
 const Introduce = () => {
   return (
