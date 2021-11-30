@@ -1,9 +1,8 @@
 import React from 'react';
-import CommentItem from '../../components/items/CommentItem';
 import { Button } from 'semantic-ui-react';
-import styles from '../../components/styles/comment.module.css';
 import { useRouter } from 'next/router';
-
+import styles from '#/components/styles/comment.module.css';
+import CommentItem from '#/components/items/CommentItem';
 interface IComment {
   id: string;
   profile: string;
