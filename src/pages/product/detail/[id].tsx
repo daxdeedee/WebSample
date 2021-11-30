@@ -1,10 +1,10 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Axios from 'axios';
-import styles from '../../../components/styles/makeup.module.css';
 import { Divider, Loader } from 'semantic-ui-react';
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
+import styles from '#/components/styles/makeup.module.css';
 
 const ProductDetail = ({ item }: any) => {
   const router = useRouter();

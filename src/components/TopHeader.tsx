@@ -1,9 +1,9 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { Divider } from 'semantic-ui-react';
-import styles from './styles/top.module.css';
-import TabMenu from './TabMenu';
-import LoginMenu from './header/LoginMenu';
+import styles from '#/components/styles/top.module.css';
+import TabMenu from '#/components/TabMenu';
+import LoginMenu from '#/components/header/LoginMenu';
 
 const TopHeader = () => {
   const router = useRouter();
